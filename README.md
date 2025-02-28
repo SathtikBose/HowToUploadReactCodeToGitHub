@@ -16,6 +16,11 @@ step 4: Add predeploy and deploy script in the package.json
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
 
+step 4:if the project is made on vite then the script will be this in the package.json
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+
 step 5: Initialize Git  Run this command in the root directory
 
     git init
